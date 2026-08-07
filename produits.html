@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos produits - AGRI-TOGO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>AGRI-TOGO</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="produits.html" class="active">Nos produits</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Nos produits</h1>
+                <p>Découvrez nos produits locaux de qualité</p>
+            </div>
+        </section>
+
+        <section class="filtres">
+            <div class="container">
+                <div class="filtre-buttons">
+                    <button class="filtre-btn" data-filtre="tous">Tous</button>
+                    <button class="filtre-btn" data-filtre="cereales">Céréales</button>
+                    <button class="filtre-btn" data-filtre="tubercules">Tubercules</button>
+                    <button class="filtre-btn" data-filtre="fruits">Fruits</button>
+                    <button class="filtre-btn" data-filtre="transformes">Transformés</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="produits">
+            <div class="container">
+                <div class="produits-grid">
+                    <div class="produit" data-categorie="cereales">
+                        <img src="image/Maize 🌾.jpg" width="400" alt="Maïs">
+                        <h3>Maïs</h3>
+                        <p>Maïs de haute qualité, cultivé dans la région des Plateaux. Riche en nutriments et idéal pour la consommation humaine et animale.</p>
+                        <span class="categorie">Céréales</span>
+                    </div>
+                    <div class="produit" data-categorie="tubercules">
+                        <img src="image/manioc.jpg" width="400" alt="Manioc">
+                        <h3>Manioc</h3>
+                        <p>Manioc frais de la région Maritime. Parfait pour la préparation de gari, attiéké et autres plats traditionnels togolais.</p>
+                        <span class="categorie">Tubercules</span>
+                    </div>
+                    <div class="produit" data-categorie="fruits">
+                        <img src="image/Ananas.jpg" width="400" height="300" alt="Ananas">
+                        <h3>Ananas</h3>
+                        <p>Ananas sucré "Cayenne lisse", réputé pour son goût exceptionnel. Cultivé naturellement sans pesticides chimiques.</p>
+                        <span class="categorie">Fruits</span>
+                    </div>
+                    <div class="produit" data-categorie="transformes">
+                        <img src="image/farine-maîs.jpg" width="400" height="300" alt="Farine de maïs">
+                        <h3>Farine de maïs</h3>
+                        <p>Farine de maïs biologique, obtenue par mouture traditionnelle. Idéale pour la préparation de pâte de maïs et autres plats.</p>
+                        <span class="categorie">Transformés</span>
+                    </div>
+                    <div class="produit" data-categorie="transformes">
+                        <img src="image/Gari du Togo.jpg" width="400" alt="Gari">
+                        <h3>Gari</h3>
+                        <p>Gari de manioc de qualité supérieure, produit selon les méthodes traditionnelles. Aliment de base riche en glucides.</p>
+                        <span class="categorie">Transformés</span>
+                    </div>
+                    <div class="produit" data-categorie="transformes">
+                        <img src="image/Jus d’ananas.jpg" width="400" alt="Jus d'ananas">
+                        <h3>Jus d'ananas naturel</h3>
+                        <p>Jus d'ananas 100% naturel, sans additifs ni conservateurs. Fraîchement pressé à partir de nos ananas mûrs.</p>
+                        <span class="categorie">Transformés</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carrousel-section">
+            <div class="container">
+                <h2>Nos produits en images</h2>
+                <div class="carrousel">
+                    <div class="carrousel-container">
+                        <div class="carrousel-slide">
+                            <img src="image/yellow corns.jpg" alt="Maïs">
+                            <div class="carrousel-caption">
+                                <h3>Maïs</h3>
+                                <p>Cultivé avec passion dans nos champs</p>
+                            </div>
+                        </div>
+                        <div class="carrousel-slide">
+                            <img src="image/IM-manioc.jpg" alt="Manioc">
+                            <div class="carrousel-caption">
+                                <h3>Manioc</h3>
+                                <p>La base de notre alimentation</p>
+                            </div>
+                        </div>
+                        <div class="carrousel-slide">
+                            <img src="image/l'ananas.jpg" alt="Ananas">
+                            <div class="carrousel-caption">
+                                <h3>Ananas</h3>
+                                <p>Le fruit roi du Togo</p>
+                            </div>
+                        </div>
+                        <div class="carrousel-slide">
+                            <img src="image/farine.jpg" alt="Farine">
+                            <div class="carrousel-caption">
+                                <h3>Farine de maïs</h3>
+                                <p>Transformée avec soin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carrousel-prev">❮</button>
+                    <button class="carrousel-next">❯</button>
+                    <div class="carrousel-indicators">
+                        <span class="indicator active"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                        <span class="indicator"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AGRI-TOGO</h3>
+                    <p>Coopérative agricole au service du développement durable</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📍 Lomé, Togo</p>
+                    <p>📧 contact@agri-togo.tg</p>
+                    <p>📞 +228 90 00 00 00</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="produits.html">Nos produits</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AGRI-TOGO. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
